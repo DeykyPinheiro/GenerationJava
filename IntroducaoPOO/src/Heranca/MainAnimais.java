@@ -12,14 +12,17 @@ public class MainAnimais {
 //		Dados Padroes
 		cachorro.mostrarDados();
 		cachorro.locomocao();
+		cachorro.getSom();
 		System.out.println();
 		
 		cavalo.mostrarDados();
-		cachorro.locomocao();
+		cavalo.locomocao();
+		cavalo.getSom();
 		System.out.println();
 		
 		preguica.mostrarDados();
 		preguica.locomocao();
+		preguica.getSom();
 		System.out.println();
 	}
 }

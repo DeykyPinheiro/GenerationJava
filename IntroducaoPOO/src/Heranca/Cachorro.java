@@ -7,6 +7,13 @@ public class Cachorro extends Animal{
 	public String getCorrer() {
 		return correr;
 	}
+	
+	@Override
+	public String getSom() {
+		String som = "onomatopeia de cachorro";
+		return (som);
+	}
+	
 
 	public void setCorrer(String correr) {
 		this.correr = correr;

@@ -7,6 +7,12 @@ public class Preguica extends Animal{
 	public String getCorrer() {
 		return correr;
 	}
+	
+	@Override
+	public String getSom() {
+		String som = "Som de preguica";
+		return (som);
+	}
 
 	public void setCorrer(String correr) {
 		this.correr = correr;
